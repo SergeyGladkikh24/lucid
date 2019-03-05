@@ -1,0 +1,332 @@
+@media (min-width: 2560px){
+	.form-contact{
+		width:38%;
+		left:31%;
+	}
+	.copyright{
+		margin-left: 46%;
+	}
+	.social-media ul{
+		margin-left: 46%;
+	}
+}
+@media (max-width: 1199px){
+	.group-button{
+		grid-template-columns:37% 27%;
+	}
+	.btn-form{
+		width:56%;
+	}
+	.details-list{
+		padding-left:5%;
+	}
+	.img-margin-top{
+		margin-left:-13%;
+	}
+	.text-testimonials{
+		font-size: 21px;
+	}
+	.group-button-testimonials{
+		grid-template-columns:55% 27%;
+	}
+	.like-what{
+		font-size:32px;
+	}
+	.button_download,.button_features{
+		width:150px;
+	}
+	.social-media ul{
+		margin-left:38%;
+	}
+	.carousel-inner{
+		padding:0 12px;
+	}
+	.copyright{
+		margin-left:38%;
+	}
+}
+@media (min-width: 992px){
+	.margin991px{
+		display:none;
+	}
+}
+@media (max-width: 991px){
+	.introducing{
+		font-size: 12px;
+	}
+	.carefully{
+		font-size: 40px;
+	}
+	.etiam{
+		font-size: 16px;
+	}
+	.group-button{
+		grid-template-columns:48% 27%;
+	}
+	.form-block{
+		width:100%;
+		margin:0 2%;
+		margin-bottom:38px;
+	}
+	.margin991px{
+		display:block;
+		margin-bottom:45px;
+	}
+	.responsive-991px{
+		margin-left:16%;
+	}
+	.img-margin-top{
+		width:100%;
+		margin-left:0;
+	}
+	.text-testimonials{
+		font-size: 18px;
+	}
+	.block-name{
+		grid-template-columns:25% 30%;
+	}
+	.contact-name>p:nth-child(1){
+		font-size: 14px;
+	}
+	.contact-name>p:nth-child(2){
+		font-size: 12px;
+	}
+	.btn-contact{
+		width:80%;
+	}
+	.social-media ul{
+		margin-left: 36%;
+	}
+
+
+}
+@media (min-width: 768px){
+	.navbar-nav{
+		float:right;
+	}
+}
+@media (max-width: 767px){
+	.navbar-toggle{
+		border:1px solid #999999;
+		padding:9px 14px;
+	}
+	.fa.fa-bars{
+		color:#ffffff;
+		font-size: 18px;
+		vertical-align:middle;
+	}
+	.navbar-brand{
+		grid-template-columns:52% 50%;
+		padding-left:41%;
+	}
+	.text-header{
+		margin-top:0;
+		text-align: center;
+		margin-bottom:30px;
+	}
+	.carefully{
+		font-size: 30px;
+	}
+	.group-button{
+		grid-template-columns:35% 27%;
+		margin-left:25%;
+	}
+	.form-block{
+		width:79%;
+		margin:0 10%;
+		margin-bottom:38px;
+	}
+	.btn-form{
+		width:100%;
+	}
+	.text-features{
+		margin-bottom:60px;
+		padding:0 86px;
+	}
+	.carousel-inner{
+		padding:0 30px;
+	}
+	.grid-testimonials{
+		grid-gap:20px;
+	}
+	.contact-name>p:nth-child(1){
+		font-size: 13px;
+	}
+	.like-what{
+		font-size: 28px;
+		text-align:center;
+		margin-bottom: 25px;
+		margin-top: 35px;
+	}
+	.group-button-testimonials{
+		margin-bottom: 34px;
+		margin-top:0;
+	}
+	.pricingTable{
+		width:70%;
+		margin:0 auto;
+		margin-bottom: 57px;
+	}
+	.phone-contact,.pointer-contact,.mail-contact{
+		margin-bottom: 50px;
+	}
+	.form-contact{
+		width: 80%;
+		left: 10%;
+	}
+	.copyright{
+		margin-left: 36%;
+	}
+	.social-media ul{
+		margin-left: 35%;
+	}
+}
+@media (max-width: 640px){
+	.group-button{
+		grid-template-columns:39% 27%;
+		margin-left: 22%;
+	}
+	.carousel-inner{
+		padding:0 44px;
+	}
+	.copyright{
+		margin-left: 31%;
+	}
+	.social-media ul{
+		margin-left: 31%;
+	}
+}
+@media (max-width: 540px){
+	.carefully{
+		padding:0 20px;
+	}
+	.group-button{
+		grid-template-columns:43% 27%;
+		margin-left:17%;
+	}
+	.responsive-991px{
+		margin-left:0;
+		width:100%;
+	}
+	.grid-testimonials{
+		grid-template-columns:100%;
+		grid-gap:50px;
+	}
+	.social-media ul{
+		margin-left: 28%;
+	}
+	.copyright{
+		margin-left: 28%;
+	}
+}
+@media (max-width: 460px){
+	.carefully{
+		padding: 0 40px;
+		font-size: 28px;
+	}
+	.etiam{
+		padding:0 27px;
+	}
+	.group-button{
+		grid-template-columns:46% 27%;
+		margin-left: 12%;
+	}
+	.text-features{
+		padding:0 30px;
+	}
+	.grid-form{
+		display:grid;
+		grid-template-columns:100%;
+		grid-gap:0;
+	}
+	.form-contact{
+		margin-top: -500px;
+	}
+	.margin-contact{
+		margin-bottom: 510px;
+	}
+	.social-media ul{
+		margin-left: 21%;
+	}
+	.copyright{
+		margin-left: 21%;
+	}
+}
+@media (max-width: 420px){
+	.navbar-brand{
+		padding-left:38%;
+	}
+	.etiam{
+		padding:0 10px;
+	}
+	.group-button{
+		grid-template-columns:50% 50%;
+		margin-left: 7%;
+	}
+	.form-block{
+		width: 100%;
+		margin:0;
+		margin-bottom:38px;
+	}
+	.social-media ul{
+		margin-left: 20%;
+	}
+	.copyright{
+		margin-left: 20%;
+	}
+}
+@media (max-width: 375px){
+	.navbar-brand{
+		padding-left:12%;
+	}
+	.carefully{
+		font-size: 25px;
+	}
+	.etiam{
+		font-size: 15px;
+	}
+	.group-button{
+		grid-template-columns:100%;
+		grid-gap:15px;
+		margin-left: 21%;
+	}
+	.button_download,.button_features{
+		width:200px;
+	}
+	.list-amazing{
+		font-size: 30px;
+	}
+	.img-margin-top{
+		margin-top:12px;
+	}
+	.block-name{
+		grid-template-columns:35% 30%;
+	}
+	.pricingTable{
+		width: 100%;
+	}
+	.form-contact{
+		width:90%;
+		left:5%;
+	}
+	.social-media ul{
+		margin-left: 13%;
+	}
+	.copyright{
+		margin-left: 13%;
+	}
+}
+@media (max-width: 320px){
+	.group-button{
+		margin-left: 15%;
+	}
+	.details-list{
+		padding-left: 8%;
+	}
+	.social-media ul{
+		margin-left: 10%;
+	}
+	.copyright{
+		margin-left: 10%;
+	}
+}

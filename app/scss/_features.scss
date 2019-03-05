@@ -1,0 +1,124 @@
+@import 'var';
+
+.text-product{
+	text-align:center;
+	text-transform:uppercase;
+	font-size: 14px;
+	color:$accent-color;
+	font-family:'Source Sans Pro',sans-serif;
+	font-weight: 600;
+	margin-top:64px;
+	margin-bottom:23px;
+}
+.list-amazing{
+	text-align:center;
+	font-size:36px;
+	color:#000000;
+	font-family:'Source Sans Pro',sans-serif;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+.line{
+	margin:0 auto;
+	background-image: url(../img/line.png);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	height:3px;
+	width:42px;
+	margin-bottom:70px;
+}
+.monitor,.settings,.like,.phone{
+	background-image: url(../img/icon_feature.png);
+	background-repeat: no-repeat;
+	width:90px;
+	height:90px;
+	margin:0 auto;
+}
+.settings{
+	background-position: -100px 0;
+}
+.like{
+	background-position: -200px 0;
+}
+.phone{
+	background-position: -300px 0;
+}
+.features-h{
+	font-size:24px;
+	color:#000000;
+	text-align:center;
+	margin-top:37px;
+	margin-bottom:23px;
+}
+.text-features{
+	font-size:18px;
+	color:$color-text;
+	text-align:center;
+}
+.margin-bottom{
+	margin-bottom:76px;
+}
+.hr{
+	width:100%;
+	padding:0;
+	height:2px;
+	background-color: #ededed;
+	margin-bottom:70px;
+}
+.dip{
+	margin-top:40px;
+	margin-bottom:28px;
+	text-align:left;
+}
+.beautiful{
+	margin-bottom:34px;
+	text-align:left;
+}
+.line-left{
+	margin:0;
+	margin-bottom:27px;
+}
+.text-details{
+	font-size:18px;
+	color:$color-text;
+	text-align:left;
+	margin-bottom:35px;
+	font-family:'Source Sans Pro',sans-serif;
+}
+.details-list{
+	padding-left:3%;
+}
+.details-list>li{
+	padding-bottom:15px;
+	font-size:18px;
+	font-family:'Source Sans Pro',sans-serif;
+       &:nth-child(1){
+       	list-style-image: url('../img/cup.png');
+       }
+       &:nth-child(2){
+		list-style-image: url('../img/mouse.png');
+		margin-left:-3px;
+		padding-left:2px;
+       }
+       &:nth-child(3){
+       	list-style-image: url('../img/energe.png');
+       }
+       &:nth-child(4){
+		list-style-image: url('../img/spedometr.png');
+		margin-left:1px;
+       }
+}
+.margin-bottom-details{
+	margin-bottom:16px;
+}
+.customize{
+	background-color: $color-block;
+}
+.dip-margin-top{
+	margin-top:130px;
+}
+.img-margin-top{
+	margin-top:65px;
+	width:120%;
+	margin-left:-7%;
+}

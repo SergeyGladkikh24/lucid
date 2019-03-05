@@ -1,0 +1,33 @@
+@import 'var';
+
+footer{
+	background-color: #000000;
+}
+.social-media{
+	ul{
+		list-style:none;
+		display:inline-block;
+		margin-left:40%;
+		margin-top: 50px;
+		li{
+			float:left;
+			padding-right:26px;
+			a{
+				color:#444348;
+				font-size: $text-size;
+				&:hover{
+					color:$accent-color;
+				}
+			}
+		}
+	}
+}
+.copyright{
+    font-size: 14px;
+    font-family: 'Source Sans Pro',sans-serif;
+    font-weight: 700;
+    padding-bottom:46px;
+    text-transform: uppercase;
+    margin-left:40%
+    
+}

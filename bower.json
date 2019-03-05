@@ -1,0 +1,24 @@
+{
+  "name": "source",
+  "description": "Mobile",
+  "main": "index.js",
+  "authors": [
+    "Sergey"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "Mobile"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "3.3.7",
+    "Headhesive.js": "headhesive#1.2.3"
+  }
+}
