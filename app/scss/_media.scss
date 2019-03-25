@@ -11,9 +11,6 @@
 	}
 }
 @media (max-width: 1199px){
-	.group-button{
-		grid-template-columns:37% 27%;
-	}
 	.btn-form{
 		width:56%;
 	}
@@ -27,13 +24,20 @@
 		font-size: 21px;
 	}
 	.group-button-testimonials{
-		grid-template-columns:55% 27%;
+		display: block;
+		width: 250px;
+		margin-left: auto;
+		margin-top: 37px;
+	}
+	.group-button-testimonials .button_features{
+		margin-bottom: 10px;
+	}
+	.group-button-testimonials .button_features,
+	.group-button-testimonials .button_download{
+		width: 100%;
 	}
 	.like-what{
 		font-size:32px;
-	}
-	.button_download,.button_features{
-		width:150px;
 	}
 	.social-media ul{
 		margin-left:38%;
@@ -60,9 +64,6 @@
 	.etiam{
 		font-size: 16px;
 	}
-	.group-button{
-		grid-template-columns:48% 27%;
-	}
 	.form-block{
 		width:100%;
 		margin:0 2%;
@@ -82,9 +83,6 @@
 	.text-testimonials{
 		font-size: 18px;
 	}
-	.block-name{
-		grid-template-columns:25% 30%;
-	}
 	.contact-name>p:nth-child(1){
 		font-size: 14px;
 	}
@@ -97,8 +95,6 @@
 	.social-media ul{
 		margin-left: 36%;
 	}
-
-
 }
 @media (min-width: 768px){
 	.navbar-nav{
@@ -106,6 +102,9 @@
 	}
 }
 @media (max-width: 767px){
+	.navbar-collapse {
+		padding-top: 0;
+	}
 	.navbar-toggle{
 		border:1px solid #999999;
 		padding:9px 14px;
@@ -116,7 +115,6 @@
 		vertical-align:middle;
 	}
 	.navbar-brand{
-		grid-template-columns:52% 50%;
 		padding-left:41%;
 	}
 	.text-header{
@@ -128,8 +126,7 @@
 		font-size: 30px;
 	}
 	.group-button{
-		grid-template-columns:35% 27%;
-		margin-left:25%;
+		margin:auto;
 	}
 	.form-block{
 		width:79%;
@@ -145,9 +142,6 @@
 	}
 	.carousel-inner{
 		padding:0 30px;
-	}
-	.grid-testimonials{
-		grid-gap:20px;
 	}
 	.contact-name>p:nth-child(1){
 		font-size: 13px;
@@ -173,6 +167,8 @@
 	.form-contact{
 		width: 80%;
 		left: 10%;
+		padding-right: 35px;
+		padding-left: 35px;
 	}
 	.copyright{
 		margin-left: 36%;
@@ -182,9 +178,12 @@
 	}
 }
 @media (max-width: 640px){
-	.group-button{
-		grid-template-columns:39% 27%;
-		margin-left: 22%;
+	.grid-testimonials {
+		display: block;
+	}
+	.testimonials1 {
+		margin-bottom: 45px;
+		padding-right: 0;
 	}
 	.carousel-inner{
 		padding:0 44px;
@@ -200,18 +199,11 @@
 	.carefully{
 		padding:0 20px;
 	}
-	.group-button{
-		grid-template-columns:43% 27%;
-		margin-left:17%;
-	}
 	.responsive-991px{
 		margin-left:0;
 		width:100%;
 	}
-	.grid-testimonials{
-		grid-template-columns:100%;
-		grid-gap:50px;
-	}
+
 	.social-media ul{
 		margin-left: 28%;
 	}
@@ -228,16 +220,31 @@
 		padding:0 27px;
 	}
 	.group-button{
-		grid-template-columns:46% 27%;
-		margin-left: 12%;
+		display:block;
+		width: 200px;
+		margin:auto;
+	}
+	.group-button-testimonials{
+		margin-bottom: 34px;
+	}
+	.button_download, 
+	.button_features {
+    	width: 100%;
+	}
+	.button_download {
+		margin-bottom: 10px;
 	}
 	.text-features{
 		padding:0 30px;
 	}
 	.grid-form{
-		display:grid;
-		grid-template-columns:100%;
-		grid-gap:0;
+		display:block;
+	}
+	.form-input {
+		width: 100%;
+	}
+	.form-textarea {
+		width: 100%;
 	}
 	.form-contact{
 		margin-top: -500px;
@@ -258,10 +265,6 @@
 	}
 	.etiam{
 		padding:0 10px;
-	}
-	.group-button{
-		grid-template-columns:50% 50%;
-		margin-left: 7%;
 	}
 	.form-block{
 		width: 100%;
@@ -285,14 +288,6 @@
 	.etiam{
 		font-size: 15px;
 	}
-	.group-button{
-		grid-template-columns:100%;
-		grid-gap:15px;
-		margin-left: 21%;
-	}
-	.button_download,.button_features{
-		width:200px;
-	}
 	.list-amazing{
 		font-size: 30px;
 	}
@@ -300,7 +295,7 @@
 		margin-top:12px;
 	}
 	.block-name{
-		grid-template-columns:35% 30%;
+		width: 230px;
 	}
 	.pricingTable{
 		width: 100%;

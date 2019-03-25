@@ -60,13 +60,19 @@
 	left:17%;
 }
 .grid-form{
-	display:grid;
-	grid-template-columns:50% 46%;
-	grid-gap:20px;
+	display:flex;
+	justify-content: space-between;
+}
+.form-input {
+	width: 50%;
+}
+.form-textarea {
+	width: 46%;
 }
 .form-control-contact{
 	background-color: transparent;
 	border:1px solid #999999;
+	color: #ffffff;
 }
 .textarea-contact{
 	height:188px;
@@ -84,4 +90,4 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	position:relative;
-}	
+}

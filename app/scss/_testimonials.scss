@@ -13,9 +13,11 @@
 	margin-bottom:30px;
 }
 .grid-testimonials{
-	display:grid;
-	grid-template-columns:50% 50%;
+	display:flex;
 	margin-bottom:145px;
+}
+.testimonials1 {
+	padding-right: 18px;
 }
 .text-testimonials{
 	font-size: 24px;
@@ -25,8 +27,9 @@
 	margin-bottom:28px;
 }
 .block-name{
-	display:grid;
-	grid-template-columns:15% 30%;
+	display:flex;
+	width: 264px;
+	justify-content: space-between;
 
 }
 .contact-name>p{
@@ -45,6 +48,7 @@
 	margin-right: 15px;
 	width:6px;
 	height:6px;
+	z-index: 1;
 }
 .carousel-indicators .active{
 	margin-right:15px;
@@ -68,6 +72,5 @@
 	font-weight:300;
 }
 .group-button-testimonials{
-	grid-template-columns:47% 27%;
 	margin-top:64px;
 }

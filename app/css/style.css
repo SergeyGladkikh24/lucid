@@ -2,6 +2,7 @@ html {
   overflow-x: hidden; }
 
 body {
+  overflow-x: hidden;
   margin: 0 auto;
   padding: 0; }
 
@@ -18,9 +19,14 @@ header {
   -webkit-border-radius: 0;
           border-radius: 0; }
 
+.navbar-collapse {
+  padding-top: 4px; }
+
 .navbar-brand {
-  display: grid;
-  grid-template-columns: 65% 50%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   padding-left: 40%; }
 
 .lucid {
@@ -37,7 +43,9 @@ header {
   line-height: 10px;
   text-transform: uppercase;
   font-weight: 600;
-  letter-spacing: 1px; }
+  letter-spacing: 1px;
+  width: 50px;
+  padding-left: 5px; }
 
 .navbar-nav {
   padding-right: 1%; }
@@ -97,8 +105,15 @@ nav li.active a {
   margin-bottom: 16px; }
 
 .group-button {
-  display: grid;
-  grid-template-columns: 32% 27%; }
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 336px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
 
 .btn {
   padding: 14px 25px;
@@ -169,12 +184,8 @@ textarea {
   -o-transition: 0.5s;
   transition: 0.5s;
   background-color: #000000;
-  z-index: 3;
-  padding-top: 5px; }
-  .headhesive .navbar-brand {
-    display: grid;
-    grid-template-columns: 65% 50%;
-    padding-left: 40%; }
+  z-index: 6;
+  padding-top: 0; }
 
 .headhesive--stick {
   -webkit-transform: translateY(0);
@@ -313,9 +324,14 @@ textarea {
   margin-bottom: 30px; }
 
 .grid-testimonials {
-  display: grid;
-  grid-template-columns: 50% 50%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   margin-bottom: 145px; }
+
+.testimonials1 {
+  padding-right: 18px; }
 
 .text-testimonials {
   font-size: 24px;
@@ -325,8 +341,15 @@ textarea {
   margin-bottom: 28px; }
 
 .block-name {
-  display: grid;
-  grid-template-columns: 15% 30%; }
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 264px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
 
 .contact-name > p {
   color: #ffffff; }
@@ -341,7 +364,8 @@ textarea {
 .carousel-indicators > li {
   margin-right: 15px;
   width: 6px;
-  height: 6px; }
+  height: 6px;
+  z-index: 1; }
 
 .carousel-indicators .active {
   margin-right: 15px;
@@ -364,7 +388,6 @@ textarea {
   font-weight: 300; }
 
 .group-button-testimonials {
-  grid-template-columns: 47% 27%;
   margin-top: 64px; }
 
 .pricingTable {
@@ -514,13 +537,25 @@ textarea {
   left: 17%; }
 
 .grid-form {
-  display: grid;
-  grid-template-columns: 50% 46%;
-  grid-gap: 20px; }
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.form-input {
+  width: 50%; }
+
+.form-textarea {
+  width: 46%; }
 
 .form-control-contact {
   background-color: transparent;
-  border: 1px solid #999999; }
+  border: 1px solid #999999;
+  color: #ffffff; }
 
 .textarea-contact {
   height: 188px; }
@@ -575,8 +610,6 @@ footer {
     margin-left: 46%; } }
 
 @media (max-width: 1199px) {
-  .group-button {
-    grid-template-columns: 37% 27%; }
   .btn-form {
     width: 56%; }
   .details-list {
@@ -586,11 +619,17 @@ footer {
   .text-testimonials {
     font-size: 21px; }
   .group-button-testimonials {
-    grid-template-columns: 55% 27%; }
+    display: block;
+    width: 250px;
+    margin-left: auto;
+    margin-top: 37px; }
+  .group-button-testimonials .button_features {
+    margin-bottom: 10px; }
+  .group-button-testimonials .button_features,
+  .group-button-testimonials .button_download {
+    width: 100%; }
   .like-what {
     font-size: 32px; }
-  .button_download, .button_features {
-    width: 150px; }
   .social-media ul {
     margin-left: 38%; }
   .carousel-inner {
@@ -609,8 +648,6 @@ footer {
     font-size: 40px; }
   .etiam {
     font-size: 16px; }
-  .group-button {
-    grid-template-columns: 48% 27%; }
   .form-block {
     width: 100%;
     margin: 0 2%;
@@ -625,8 +662,6 @@ footer {
     margin-left: 0; }
   .text-testimonials {
     font-size: 18px; }
-  .block-name {
-    grid-template-columns: 25% 30%; }
   .contact-name > p:nth-child(1) {
     font-size: 14px; }
   .contact-name > p:nth-child(2) {
@@ -641,6 +676,8 @@ footer {
     float: right; } }
 
 @media (max-width: 767px) {
+  .navbar-collapse {
+    padding-top: 0; }
   .navbar-toggle {
     border: 1px solid #999999;
     padding: 9px 14px; }
@@ -649,7 +686,6 @@ footer {
     font-size: 18px;
     vertical-align: middle; }
   .navbar-brand {
-    grid-template-columns: 52% 50%;
     padding-left: 41%; }
   .text-header {
     margin-top: 0;
@@ -658,8 +694,7 @@ footer {
   .carefully {
     font-size: 30px; }
   .group-button {
-    grid-template-columns: 35% 27%;
-    margin-left: 25%; }
+    margin: auto; }
   .form-block {
     width: 79%;
     margin: 0 10%;
@@ -671,8 +706,6 @@ footer {
     padding: 0 86px; }
   .carousel-inner {
     padding: 0 30px; }
-  .grid-testimonials {
-    grid-gap: 20px; }
   .contact-name > p:nth-child(1) {
     font-size: 13px; }
   .like-what {
@@ -691,16 +724,20 @@ footer {
     margin-bottom: 50px; }
   .form-contact {
     width: 80%;
-    left: 10%; }
+    left: 10%;
+    padding-right: 35px;
+    padding-left: 35px; }
   .copyright {
     margin-left: 36%; }
   .social-media ul {
     margin-left: 35%; } }
 
 @media (max-width: 640px) {
-  .group-button {
-    grid-template-columns: 39% 27%;
-    margin-left: 22%; }
+  .grid-testimonials {
+    display: block; }
+  .testimonials1 {
+    margin-bottom: 45px;
+    padding-right: 0; }
   .carousel-inner {
     padding: 0 44px; }
   .copyright {
@@ -711,15 +748,9 @@ footer {
 @media (max-width: 540px) {
   .carefully {
     padding: 0 20px; }
-  .group-button {
-    grid-template-columns: 43% 27%;
-    margin-left: 17%; }
   .responsive-991px {
     margin-left: 0;
     width: 100%; }
-  .grid-testimonials {
-    grid-template-columns: 100%;
-    grid-gap: 50px; }
   .social-media ul {
     margin-left: 28%; }
   .copyright {
@@ -732,14 +763,24 @@ footer {
   .etiam {
     padding: 0 27px; }
   .group-button {
-    grid-template-columns: 46% 27%;
-    margin-left: 12%; }
+    display: block;
+    width: 200px;
+    margin: auto; }
+  .group-button-testimonials {
+    margin-bottom: 34px; }
+  .button_download,
+  .button_features {
+    width: 100%; }
+  .button_download {
+    margin-bottom: 10px; }
   .text-features {
     padding: 0 30px; }
   .grid-form {
-    display: grid;
-    grid-template-columns: 100%;
-    grid-gap: 0; }
+    display: block; }
+  .form-input {
+    width: 100%; }
+  .form-textarea {
+    width: 100%; }
   .form-contact {
     margin-top: -500px; }
   .margin-contact {
@@ -754,9 +795,6 @@ footer {
     padding-left: 38%; }
   .etiam {
     padding: 0 10px; }
-  .group-button {
-    grid-template-columns: 50% 50%;
-    margin-left: 7%; }
   .form-block {
     width: 100%;
     margin: 0;
@@ -773,18 +811,12 @@ footer {
     font-size: 25px; }
   .etiam {
     font-size: 15px; }
-  .group-button {
-    grid-template-columns: 100%;
-    grid-gap: 15px;
-    margin-left: 21%; }
-  .button_download, .button_features {
-    width: 200px; }
   .list-amazing {
     font-size: 30px; }
   .img-margin-top {
     margin-top: 12px; }
   .block-name {
-    grid-template-columns: 35% 30%; }
+    width: 230px; }
   .pricingTable {
     width: 100%; }
   .form-contact {
